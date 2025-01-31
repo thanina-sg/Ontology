@@ -1,0 +1,1430 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup/"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:makeup="http://www.example.org/makeup#"
+     xmlns:makeup1="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#"
+     xmlns:makeup2="http://www.semanticweb.org/ontology/makeup#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup">
+        <rdfs:comment>Ontologie pour la gestion de produits de maquillage</rdfs:comment>
+        <rdfs:label>Ontologie Gestion de Maquillage</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/makeup#Adresse -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#Adresse"/>
+    
+
+
+    <!-- http://www.example.org/makeup#Age -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#Age"/>
+    
+
+
+    <!-- http://www.example.org/makeup#DureeProduit -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#DureeProduit"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdAllergene -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdAllergene"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdEffet -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdEffet"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdFormat -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdFormat"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdIngredient -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdIngredient"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdLieu -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdLieu"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdMarque -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdMarque"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdOutil -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdOutil"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdProduit -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdProduit"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdType"/>
+    
+
+
+    <!-- http://www.example.org/makeup#IdUtilisateur -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#IdUtilisateur"/>
+    
+
+
+    <!-- http://www.example.org/makeup#Nature -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#Nature"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomAllergene -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomAllergene"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomEffet -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomEffet"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomFormat -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomFormat"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomIngredient -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomIngredient"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomLieu -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomLieu"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomMarque -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomMarque"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomOutil -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomOutil"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomProduit -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomProduit"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomType"/>
+    
+
+
+    <!-- http://www.example.org/makeup#NomUtilisateur -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#NomUtilisateur"/>
+    
+
+
+    <!-- http://www.example.org/makeup#PaysOrigine -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#PaysOrigine"/>
+    
+
+
+    <!-- http://www.example.org/makeup#PrixProduit -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#PrixProduit"/>
+    
+
+
+    <!-- http://www.example.org/makeup#TypeDePeau -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#TypeDePeau"/>
+    
+
+
+    <!-- http://www.example.org/makeup#TypeLieu -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#TypeLieu"/>
+    
+
+
+    <!-- http://www.example.org/makeup#TypeOutil -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#TypeOutil"/>
+    
+
+
+    <!-- http://www.example.org/makeup#Volume -->
+
+    <owl:AnnotationProperty rdf:about="http://www.example.org/makeup#Volume"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup/ProduitUnEffet -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup/ProduitUnEffet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup/hasDescription -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup/hasDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#FunctionalProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/makeup#aPourFormat -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#aPourFormat">
+        <owl:inverseOf rdf:resource="http://www.example.org/makeup#estFormatDe"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#FormatDeProduit"/>
+        <rdfs:comment>Relation entre un produit de maquillage et son format</rdfs:comment>
+        <owl:FunctionalProperty></owl:FunctionalProperty>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#allergeneContenuDans -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#allergeneContenuDans">
+        <owl:inverseOf rdf:resource="http://www.example.org/makeup#contientAllergene"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Allergene"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;un allergène est contenu dans un produit de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#applique -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#applique">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#OutilDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;un outil de maquillage applique un produit de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#contient -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#contient">
+        <owl:inverseOf rdf:resource="http://www.example.org/makeup#estContenuDans"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <rdfs:comment>Relation entre un produit de maquillage et les ingrédients cosmétiques qu&apos;il contient</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#contientAllergene -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#contientAllergene">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#Allergene"/>
+        <rdfs:comment>Relation indiquant qu&apos;un produit de maquillage contient un allergène</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#convientA -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#convientA">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <rdfs:comment>Relation entre un produit de maquillage et le type de peau auquel il convient</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#estAppliquePar -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#estAppliquePar">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#OutilDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;un produit de maquillage est appliqué par un outil de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#estConseillePour -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#estConseillePour">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;un type de peau est conseillé pour un produit de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#estContenuDans -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#estContenuDans">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;un ingrédient cosmétique est contenu dans un produit de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#estDeLaMarque -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#estDeLaMarque">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#MarqueDeMaquillage"/>
+        <rdfs:comment>Relation entre un produit de maquillage et la marque à laquelle il appartient</rdfs:comment>
+        <owl:FunctionalProperty></owl:FunctionalProperty>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#estDisponibleChez -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#estDisponibleChez">
+        <owl:inverseOf rdf:resource="http://www.example.org/makeup#vend"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#LieuDeVente"/>
+        <rdfs:comment>Relation indiquant qu&apos;un produit de maquillage est disponible dans un lieu de vente</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#estFormatDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#estFormatDe">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#FormatDeProduit"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;un format est associé à un produit de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#estProduitPar -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#estProduitPar">
+        <owl:inverseOf rdf:resource="http://www.example.org/makeup#produitUnEffet"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;un effet cosmétique est produit par un produit de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#estUtilisePar -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#estUtilisePar">
+        <owl:inverseOf rdf:resource="http://www.example.org/makeup#utilise"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <rdfs:comment>Relation indiquant qu&apos;un produit de maquillage est utilisé par un utilisateur</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#possedeProduit -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#possedeProduit">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#MarqueDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;une marque possède un produit de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#produitUnEffet -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#produitUnEffet">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <rdfs:comment>Relation entre un produit de maquillage et l&apos;effet cosmétique qu&apos;il produit</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#utilise -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#utilise">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation entre un utilisateur et le produit de maquillage qu&apos;il utilise</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/makeup#vend -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/makeup#vend">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#LieuDeVente"/>
+        <rdfs:range rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Relation indiquant qu&apos;un lieu de vente vend un produit de maquillage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#TypeDePeau -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#TypeDePeau">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#Adresse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#Adresse">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Adresse de l&apos;utilisateur</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#Age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#Age">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Âge de l&apos;utilisateur</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#DureeProduit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#DureeProduit">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Durée de vie du produit en mois</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdAllergene -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdAllergene">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Allergene"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique de l&apos;allergène</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdEffet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdEffet">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique de l&apos;effet cosmétique</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdFormat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdFormat">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique du format de produit</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdIngredient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdIngredient">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique de l&apos;ingrédient cosmétique</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdLieu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdLieu">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#LieuDeVente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique du lieu de vente</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdMarque -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdMarque">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#MarqueDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique de la marque de maquillage</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdOutil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdOutil">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#OutilDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique de l&apos;outil de maquillage</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdProduit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdProduit">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique du produit de maquillage</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique du type de peau</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#IdUtilisateur -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#IdUtilisateur">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>ID unique de l&apos;utilisateur</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#Nature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#Nature">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nature de l&apos;ingrédient cosmétique</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomAllergene -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomAllergene">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Allergene"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom de l&apos;allergène</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomEffet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomEffet">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom de l&apos;effet cosmétique</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomFormat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomFormat">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#FormatDeProduit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom du format de produit</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomIngredient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomIngredient">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom de l&apos;ingrédient cosmétique</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomLieu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomLieu">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#LieuDeVente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom du lieu de vente</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomMarque -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomMarque">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#MarqueDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom de la marque de maquillage</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomOutil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomOutil">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#OutilDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom de l&apos;outil de maquillage</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomProduit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomProduit">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom du produit de maquillage</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomType">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom du type de peau</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#NomUtilisateur -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#NomUtilisateur">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Nom de l&apos;utilisateur</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#PaysOrigine -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#PaysOrigine">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#MarqueDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Pays d&apos;origine de la marque</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#PrixProduit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#PrixProduit">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Prix du produit de maquillage en unité monétaire</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#TypeLieu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#TypeLieu">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Type de lieu de vente</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#TypeOutil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#TypeOutil">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#OutilDeMaquillage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Type de l&apos;outil de maquillage</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontology/makeup#Volume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontology/makeup#Volume">
+        <rdfs:domain rdf:resource="http://www.example.org/makeup#FormatDeProduit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Volume du format de produit en ml</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/makeup#Allergene -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#Allergene">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <rdfs:comment>Classe représentant un allergène dans les ingrédients cosmétiques.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#Blush -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#Blush">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Classe représentant un blush, un produit de maquillage pour les joues.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#Concealer -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#Concealer">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Classe représentant un correcteur, utilisé pour masquer les imperfections.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#EffetCosmetique -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#EffetCosmetique">
+        <rdfs:comment>Classe représentant un effet cosmétique généré par un produit.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#FondDeTeint -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#FondDeTeint">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Classe représentant un fond de teint, utilisé pour uniformiser le teint.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#FormatDeProduit -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#FormatDeProduit">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontology/makeup#Volume"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment>Classe représentant le format d&apos;un produit de maquillage (ex : crème, poudre, liquide).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#IngredientCosmetique -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#IngredientCosmetique">
+        <rdfs:comment>Classe représentant un ingrédient utilisé dans les produits cosmétiques.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#LieuDeVente -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#LieuDeVente">
+        <rdfs:comment>Classe représentant un lieu où les produits de maquillage sont vendus.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#MarqueDeMaquillage -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#MarqueDeMaquillage">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontology/makeup#PaysOrigine"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>[^\s]+</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment>Classe représentant une marque de produits de maquillage.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#Mascara -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#Mascara">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Classe représentant un mascara, utilisé pour accentuer les cils.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#OutilDeMaquillage -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#OutilDeMaquillage">
+        <rdfs:comment>Classe représentant un outil utilisé pour l&apos;application de maquillage.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#PeauGrasse -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#PeauGrasse">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <owl:disjointWith rdf:resource="http://www.example.org/makeup#PeauMixte"/>
+        <owl:disjointWith rdf:resource="http://www.example.org/makeup#PeauSeche"/>
+        <owl:disjointWith rdf:resource="http://www.example.org/makeup#PeauSensible"/>
+        <rdfs:comment>Classe représentant le type de peau grasse.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#PeauMixte -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#PeauMixte">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <owl:disjointWith rdf:resource="http://www.example.org/makeup#PeauSeche"/>
+        <owl:disjointWith rdf:resource="http://www.example.org/makeup#PeauSensible"/>
+        <rdfs:comment>Classe représentant le type de peau mixte.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#PeauSeche -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#PeauSeche">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <owl:disjointWith rdf:resource="http://www.example.org/makeup#PeauSensible"/>
+        <rdfs:comment>Classe représentant le type de peau sèche.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#PeauSensible -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#PeauSensible">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <rdfs:comment>Classe représentant le type de peau sensible.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#ProduitDeMaquillage -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#ProduitDeMaquillage">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontology/makeup#PrixProduit"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment>Classe représentant un produit de maquillage.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#RougeALevres -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#RougeALevres">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <rdfs:comment>Classe représentant un rouge à lèvres.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/makeup#TypeDePeau -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#TypeDePeau"/>
+    
+
+
+    <!-- http://www.example.org/makeup#Utilisateur -->
+
+    <owl:Class rdf:about="http://www.example.org/makeup#Utilisateur">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontology/makeup#Age"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment>Classe représentant un utilisateur de produits de maquillage.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/makeup#ContexteHivernal -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/makeup#ContexteHivernal">
+        <rdf:type rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <hasDescription>Recommandé pour des produits hydratants pendant la saison hivernale</hasDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/makeup#ContextePeauGrasse -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/makeup#ContextePeauGrasse">
+        <rdf:type rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <hasDescription>Recommandé pour des produits régulant l&apos;excès de sébum et matifiant</hasDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/makeup#ContextePeauMixte -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/makeup#ContextePeauMixte">
+        <rdf:type rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <hasDescription>Recommandé pour des produits équilibrants pour les zones sèches et grasses</hasDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/makeup#ContextePeauSeche -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/makeup#ContextePeauSeche">
+        <rdf:type rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <hasDescription>Recommandé pour des produits hydratants et nourrissants</hasDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/makeup#ContextePeauSensible -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/makeup#ContextePeauSensible">
+        <rdf:type rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <hasDescription>Recommandé pour des produits sans parfum et adaptés aux peaux sensibles</hasDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/makeup#ProduitHivernal -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/makeup#ProduitHivernal">
+        <rdf:type rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <ProduitUnEffet rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup/#ContexteHivernal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/makeup#ProduitPeauSensible -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/makeup#ProduitPeauSensible">
+        <rdf:type rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <ProduitUnEffet rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup/#ContextePeauSensible"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Allergene1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Allergene1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#Allergene"/>
+        <makeup:allergeneContenuDans rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:IdAllergene rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdAllergene>
+        <makeup:NomAllergene>Paraben</makeup:NomAllergene>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Allergene2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Allergene2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#Allergene"/>
+        <makeup:allergeneContenuDans rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:allergeneContenuDans rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit3"/>
+        <makeup:IdAllergene rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdAllergene>
+        <makeup:NomAllergene>Fragrance</makeup:NomAllergene>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Effet1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Effet1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <makeup:estProduitPar rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:IdEffet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdEffet>
+        <makeup:NomEffet>Effet longue tenue</makeup:NomEffet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Effet2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Effet2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#EffetCosmetique"/>
+        <makeup:estProduitPar rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdEffet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdEffet>
+        <makeup:NomEffet>Hydratant</makeup:NomEffet>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#FormatDeProduit"/>
+        <makeup:estFormatDe rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:IdFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdFormat>
+        <makeup:NomFormat>Tube</makeup:NomFormat>
+        <makeup:Volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</makeup:Volume>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#FormatDeProduit"/>
+        <makeup:estFormatDe rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdFormat>
+        <makeup:NomFormat>Pot</makeup:NomFormat>
+        <makeup:Volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</makeup:Volume>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format3">
+        <rdf:type rdf:resource="http://www.example.org/makeup#FormatDeProduit"/>
+        <makeup:estFormatDe rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:IdFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</makeup:IdFormat>
+        <makeup:NomFormat>Stick</makeup:NomFormat>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <makeup:estContenuDans rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:IdIngredient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdIngredient>
+        <makeup:Nature>Naturel</makeup:Nature>
+        <makeup:NomIngredient>Eau minérale</makeup:NomIngredient>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <makeup:estContenuDans rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdIngredient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdIngredient>
+        <makeup:Nature>Naturel</makeup:Nature>
+        <makeup:NomIngredient>Huile de jojoba</makeup:NomIngredient>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient3">
+        <rdf:type rdf:resource="http://www.example.org/makeup#IngredientCosmetique"/>
+        <makeup:estContenuDans rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:IdIngredient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</makeup:IdIngredient>
+        <makeup:Nature>Chimique</makeup:Nature>
+        <makeup:NomIngredient>Paraben</makeup:NomIngredient>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Lieu1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Lieu1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#LieuDeVente"/>
+        <makeup:vend rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:vend rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit3"/>
+        <makeup:IdLieu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdLieu>
+        <makeup:NomLieu>Sephora</makeup:NomLieu>
+        <makeup:TypeLieu>Magasin</makeup:TypeLieu>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Lieu2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Lieu2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#LieuDeVente"/>
+        <makeup:vend rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdLieu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdLieu>
+        <makeup:NomLieu>Amazon</makeup:NomLieu>
+        <makeup:TypeLieu>Site web</makeup:TypeLieu>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Marque1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Marque1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#MarqueDeMaquillage"/>
+        <makeup:possedeProduit rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:possedeProduit rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdMarque rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdMarque>
+        <makeup:NomMarque>L’Oréal</makeup:NomMarque>
+        <makeup:PaysOrigine>France</makeup:PaysOrigine>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Marque2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Marque2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#MarqueDeMaquillage"/>
+        <makeup:possedeProduit rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdMarque rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdMarque>
+        <makeup:NomMarque>Maybelline</makeup:NomMarque>
+        <makeup:PaysOrigine>USA</makeup:PaysOrigine>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#OutilDeMaquillage"/>
+        <makeup:applique rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:IdOutil rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdOutil>
+        <makeup:NomOutil>Éponge</makeup:NomOutil>
+        <makeup:TypeOutil>Éponge à maquillage</makeup:TypeOutil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#OutilDeMaquillage"/>
+        <makeup:applique rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdOutil rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdOutil>
+        <makeup:NomOutil>Pinceau à poudre</makeup:NomOutil>
+        <makeup:TypeOutil>Pinceau</makeup:TypeOutil>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil3">
+        <rdf:type rdf:resource="http://www.example.org/makeup#OutilDeMaquillage"/>
+        <makeup:applique rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit3"/>
+        <makeup:IdOutil rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</makeup:IdOutil>
+        <makeup:NomOutil>Pinceau à mascara</makeup:NomOutil>
+        <makeup:TypeOutil>Pinceau</makeup:TypeOutil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauGrasse1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauGrasse1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <makeup:estConseillePour rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:IdType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdType>
+        <makeup:NomType>Peau grasse</makeup:NomType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauMixte1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauMixte1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <makeup:estConseillePour rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/>
+        <makeup:estConseillePour rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</makeup:IdType>
+        <makeup:NomType>Peau mixte</makeup:NomType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauSeche1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauSeche1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <makeup:estConseillePour rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/>
+        <makeup:IdType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdType>
+        <makeup:NomType>Peau sèche</makeup:NomType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauSensible1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauSensible1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#TypeDePeau"/>
+        <makeup:estConseillePour rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit3"/>
+        <makeup:IdType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</makeup:IdType>
+        <makeup:NomType>Peau sensible</makeup:NomType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <makeup:aPourFormat rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format3"/>
+        <makeup:contient rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient1"/>
+        <makeup:contientAllergene rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Allergene1"/>
+        <makeup:convientA rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauGrasse1"/>
+        <makeup:convientA rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauMixte1"/>
+        <makeup:estAppliquePar rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil1"/>
+        <makeup:estDeLaMarque rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Marque1"/>
+        <makeup:estDisponibleChez rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Lieu1"/>
+        <makeup:estUtilisePar rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur1"/>
+        <makeup:produitUnEffet rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Effet1"/>
+        <makeup:DureeProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</makeup:DureeProduit>
+        <makeup:IdProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdProduit>
+        <makeup:NomProduit>Rouge à lèvres</makeup:NomProduit>
+        <makeup:PrixProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</makeup:PrixProduit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <makeup:aPourFormat rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format2"/>
+        <makeup:contient rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient2"/>
+        <makeup:contientAllergene rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Allergene1"/>
+        <makeup:convientA rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauSèche1"/>
+        <makeup:estAppliquePar rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil2"/>
+        <makeup:estDeLaMarque rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Marque1"/>
+        <makeup:estDisponibleChez rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Lieu2"/>
+        <makeup:estUtilisePar rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur2"/>
+        <makeup:produitUnEffet rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Effet2"/>
+        <makeup:DureeProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</makeup:DureeProduit>
+        <makeup:IdProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdProduit>
+        <makeup:NomProduit>Fond de teint</makeup:NomProduit>
+        <makeup:PrixProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3500</makeup:PrixProduit>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit3">
+        <rdf:type rdf:resource="http://www.example.org/makeup#ProduitDeMaquillage"/>
+        <makeup:aPourFormat rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Format1"/>
+        <makeup:contient rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Ingredient3"/>
+        <makeup:contientAllergene rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Allergene2"/>
+        <makeup:convientA rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#PeauSensible1"/>
+        <makeup:estAppliquePar rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Outil3"/>
+        <makeup:estDeLaMarque rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Marque2"/>
+        <makeup:estDisponibleChez rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Lieu1"/>
+        <makeup:estUtilisePar rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur3"/>
+        <makeup:produitUnEffet rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Effet1"/>
+        <makeup:DureeProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</makeup:DureeProduit>
+        <makeup:IdProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</makeup:IdProduit>
+        <makeup:NomProduit>Mascara</makeup:NomProduit>
+        <makeup:PrixProduit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</makeup:PrixProduit>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur1">
+        <rdf:type rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <makeup:utilise rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit1"/> <!-- Rouge à lèvres -->
+        <makeup:Adresse>Algérie</makeup:Adresse>
+        <makeup:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</makeup:Age>
+        <makeup:IdUtilisateur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</makeup:IdUtilisateur>
+        <makeup:NomUtilisateur>Sarah</makeup:NomUtilisateur>
+        <makeup:TypeDePeau>Peau mixte</makeup:TypeDePeau>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur2">
+        <rdf:type rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <makeup:utilise rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit2"/> <!-- Fond de teint -->
+        <makeup:Adresse>Algérie</makeup:Adresse>
+        <makeup:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</makeup:Age>
+        <makeup:IdUtilisateur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</makeup:IdUtilisateur>
+        <makeup:NomUtilisateur>Maelle</makeup:NomUtilisateur>
+        <makeup:TypeDePeau>Peau sèche</makeup:TypeDePeau>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Utilisateur3">
+        <rdf:type rdf:resource="http://www.example.org/makeup#Utilisateur"/>
+        <makeup:utilise rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2025/0/makeup#Produit3"/> <!-- Mascara -->
+        <makeup:Adresse>Algérie</makeup:Adresse>
+        <makeup:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</makeup:Age>
+        <makeup:IdUtilisateur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</makeup:IdUtilisateur>
+        <makeup:NomUtilisateur>Ines</makeup:NomUtilisateur>
+        <makeup:TypeDePeau>Peau mixte</makeup:TypeDePeau>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.example.org/makeup#TypeDePeau">
+        <rdfs:comment>Classe représentant les différents types de peau.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
